@@ -1,24 +1,21 @@
 /*font-family: 'Titillium Web', sans-serif;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 font-family: 'Source Code Pro', monospace;*/
-body {	
-	background-color: blue;
-	
-}
+
 .wrp {
 	width: 100%;
-	background-color: blue;
+	background-color: hsl(187, 33%, 50%);
 	height: auto;	
 }
 .header {
-	max-width: 1000px;
-	background-color: #000;
+	max-width: 800px;
+	background-color: hsl(217, 29%, 40%);
 	margin: 0 auto;
 	border-radius: 70%;
 }
 #logo {
 	float: left;
-	margin: 2%;
+	margin: 1%;
 }
 #contact {
 	color: #fff;
@@ -32,8 +29,8 @@ body {
 }
 #slide_bg {
 	width:97%;
-	background-color: red;
-	border: 4px #000 solid;
+	background-color: hsl(81, 41%, 80%);
+	border: 2px #000 solid;
 	border-radius: 40%;
 	
 	
@@ -41,8 +38,8 @@ body {
 }
 #slider img {
 	display: block;
-	width: 69%;
-	height: 69%;
+	width: 35%;
+	height: 35%;
 	margin: 0 auto;
 	border-radius: 20%;	
 
@@ -58,15 +55,15 @@ li {
 	margin: 2% 0;
 }
 button {
-	background-color: orange;
+	background-color: hsl(240, 12%, 80%);
 	box-shadow: none;
 	border-style: none;
 	border-radius: 5px;
 }
 button:hover {
-	background-color: #000;
+	background-color: hsl(217, 29%, 40%);
 }
 button a i.material-icons  {
 	color: blue;
-	font-size: 5em;	
+	font-size: 3em;	
 }
