@@ -18,7 +18,7 @@
       				width="120"
       				height="180"
       				padding="0"
-      				style="border:2px solid #fff; background:#000;">
+      				style="border:0 solid #fff; background:#000;">
     			</iframe>
 			</div>
 			<div id="contact">
@@ -30,7 +30,7 @@
 	<div class="wrp">
 		<div id="slide_bg">
 			<div id="slider">
-				<img src="header.jpg" alt="#" title="#">
+				<img src="header.jpg" alt="header_pic" title="header_pic">
 			</div>
 		</div>
 	</div>
@@ -38,11 +38,11 @@
 <nav class="wrp">
 	<div class="header">
 		<ul>
-			<li><button><a href="index.html" title="HOME"><i class="material-icons">priority_high</i></a></button></li>
-			<li><button><a href="#" title="BADEWANNE"><i class="material-icons">hot_tub</i></a></button></li>
-			<li><button><a href="#" title="TIMELINE"><i class="material-icons">location_city</i></a></button></li>
-			<li><button><a href="chat.html" title="CHAT"><i class="material-icons">smoking_rooms</i></a></button></li>
-			<li><button><a href="friends.html" title="FRIENDS"><i class="material-icons">wc</i></a></button></li>
+			<li><button><a href="index.html" title="HOME"><i class="material-icons">home</i></a></button></li>
+			<li><button><a href="manual.html" title="MANUAL"><i class="material-icons">school</i></a></button></li>
+			<li><button><a href="timeline.html" title="TIMELINE"><i class="material-icons">access_alarms</i></a></button></li>
+			<li><button><a href="chat.html" title="CHAT"><i class="material-icons">rate_review</i></a></button></li>
+			<li><button><a href="friends.html" title="FRIENDS"><i class="material-icons">people</i></a></button></li>
 		</ul>
 	</div>
 </nav>
@@ -96,46 +96,8 @@
 	</aside>
 	<section class="wrp">
 		<article class="header" style="color: #fff;font-family: 'Yanone Kaffeesatz', sans-serif;font-size: 150%;letter-spacing: 0.2em">
-			<h2>Bedienungsanleitung(grmn)</h2>
-			<p >1)Bei <a href="https://github.com"><strong>github.com</strong></a> anmelden und einen kurzen, leicht zu
-				merkenden Usernamen registrieren. <br>Der Username wird später Bestandteil der URL: <code><i>username</i>.github.io</code>.<br>
-				2) E-Mail Adresse verifiziern. (im eigenen Mail Postfach)<br>
-				3) Bei Github neues "repository" erstellen (oben rechts bei dem kleinen "+" symbol.<br>
-				4) Repository benenen. Es muss: <strong><i>usename</i>.github.io</strong> heissen.<br>
-				5) Lizens wählen : "MIT". <br>
-				6) Fertig !?<br>
-				7) Umfrage ignorieren (oder halt nicht). <br>
-				8) readme - Datei erstellen lassen. <br>
-				9) In den Profil - settings (oben rechts), Benachrichtigungen via email ausschalten.<br>
-				10) Im deinem repository (username.github.io) unter "settings" bei "Github Pages" "source" auf "master branch" setzen.<br>
-				fertig! ... erstmal... ;-)<br>
-				Github läd jetzt die readme-Datei in deinem repository (username.github.io), da (noch) keine index.html im repository vorhanden ist.<br>
-				also <br> 11) holen wir uns ein paar Dateien bei "periog.github.io", indem wir "periog" oben in der Suchzeile eingeben und dann<br> 11) im repository 
-				"periog.github.de" auf den grünen "Download or Clone" Button klicken.<br>12) Jetzt "Download Zip" auswählen. <br>
-				13) Den Zip-Ordner, nun auf dem eigenen Rechner im "download"-Ordner entpacken. <br> 14) Im eigenen repository (natürlich eingelogt) unter "upload files" den Upload-bereich von Github öffnen und die Dateien (keine Ordner) aus dem entpackten Zip markiern und reinschieben. <br> 15) Jetzt wartest du eine Minute bis der Server 
-				von github die neuen Dateien indiziert hat, n Kaffe getrunken hat, und mit dem Nachbarserver 20 Partien Schach gespielt hat , dann <br> 16) können wir unsere neue Webseite unter https://<i>username</i>.github.io bewundern. <br>
-				16) Sie ist ein 1zu1 Klon von "periog.github.io". Die Webseite kannst du nun im eigenen "repository" bearbeiten indem du die Datei die du bearbeiten willst anklickst <br> und dann den kleinen Stift rechts oben anklickst. Wenn du fertig bist mit editiern musst du die änderung "speichen"  indem du unten auf "commit changes" klickst. <br>
-				Ändere zuerst : index.html -> titel der Webseite (usename?)<br>
-				Unter: profile_pic.html -> bei p deinen usenamen eingeben (das kann jetzt jeder x-beliebige sein, sollte aber der username sein)<br>
-				Dann : im friendsframe.html die URL deiner Github-Freunde erstellen (neuen iframe anhängen und als "src" die entsprechende Url, z.B.: https://periog.github.io/profile_pic.html einfügen).<br>
-				Nun kanst du dein Profilbild hochladen (es MUSS "profile_pic.jpg" heissen), die alte Datei wird einfach überschrieben.<br>
-				Klar: mit der header.jpg funktioniert es genau so ... clever-boy... ;-)<br>
-				17) iframes sind einfach und veraltet, aber praktisch für unseren Zweck. <br>
-				Sie machen nur etwas probleme wenn man links in ihnen platziert , diese werden dann nämlich direkt im iframe geladen<br>
-				Wir wissen was wir dagegen tun können...
-				18) Spielen nicht vergessen : wie baue ich eine chatfunktion nur mit Html und css ???! <br>
-				--- zu spät, schon gemacht. aber viel spass beim implementieren....<br>
-				(in der chatframe.html muss das DIR mit den drei iframes dupliziert werden und die src der frames geändert werden)<br>
-				erstes frame: profilbild deines freundes, zweites frame: was er sagt ("src" verlinkt auf eine html-datei in SEINEM repository mit DEINEM namen(chat-deinname.html))<br>
-				drittes frame : was du sagst, "src" führt zu einer html (chat-deinname.html) in DEINEM repo(sitory), also musst du die erstellen.<br>
-				Der öffentliche HTML-Chat funktioniert nur wenn je beide Kommunikationspartner diese änderungen in ihrer chatframe.html vornehmen und eine "chat-{usernamedes partners}.html in IHREM repo erstellen <br>
-				In diese Datei kann unter "p" die message eingegeben werden die beim Chatpartner auf der Webseite erscheint.<br>
-				19) Wieso sieht das alles hier so hässlich aus, und was kann ich dagegen tun?<br>
-				20) Keine Echtnamen und keine Fremd-fotos (halte deine Umwelt sauber), die üblichen Spielplatzregeln....
-
-
-
-
+			<h2>Welcome</h2>
+			<p>letz letz !
 			</p>			
 		</article>
 	</section>	
