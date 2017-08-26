@@ -24,7 +24,7 @@ body {
 }
 #peli {
 	float: left;
-	margin-left: 20%;
+	margin-left: 10%;
 }
 #contact {
 	color: #000;
@@ -65,7 +65,7 @@ li {
 	display:inline-block;
 	margin: 2% 0;
 }
-nav button, header button{
+nav button {
 	background-color: hsl(240, 12%, 80%);
 	box-shadow: none;
 	border-style: none;
@@ -74,15 +74,16 @@ nav button, header button{
 	font-family:  'Yanone Kaffeesatz', sans-serif;
 	letter-spacing: 0.5em;
 }
-nav button:hover, header button:hover {
+nav button:hover {
 	background-color: hsl(217, 29%, 40%);
-
 }
-nav button a i.material-icons, header button a i.material-icons {
+.active_page {
+	background-color: hsl(187, 33%, 50%);
+}
+nav button i.material-icons {
 	color: hsl(245, 65%, 54%);
 	font-size: 3em;	
 }
-
 .sidebar {
 	margin: 2% 0;
 	width: 348px;
