@@ -178,18 +178,40 @@ main section article {
 	text-align: center;
 	width: 20%;
     height: 70%;
-    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
     transition: width 2s, height 2s, transform 1s;  
 }
 main section article:hover {
     width: 100%;
     height: 100%;
-    -webkit-transform: rotate(360deg); /* Safari */
+    -webkit-transform: rotate(360deg); 
     transform: rotate(360deg);
 }
 main article section iframe {
 	display: block;
 	margin: 0 auto;
-
 }
 
+#audio {
+	min-width:850px;
+	height:200px;
+	margin:0 auto;
+	overflow: auto;
+	margin-bottom: 100px;
+	background-color: rgba(232, 232, 232, 0.2);
+}
+.player  {
+	display: block;	
+	width: 800px;
+	height: auto;
+	margin: 0 auto;	
+}
+main section table tr td {
+	padding:4px 4px 0 4px;
+	background-color: orange;
+	text-align: center;
+}
+
+.min_w {
+	min-width: 214px;
+}
