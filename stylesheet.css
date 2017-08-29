@@ -209,8 +209,7 @@ main article section iframe {
 	margin-bottom: 100px;
 	background-color: rgba(232, 232, 232, 0.2);
 	float: left;
-	position: relative;
-	
+	position: relative;	
 }
 .player  {
 	display: block;	
@@ -223,7 +222,6 @@ main section table tr td {
 	background-color: orange;
 	text-align: center;
 }
-
 .min_w {
 	min-width: 214px;
 }
