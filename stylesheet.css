@@ -193,12 +193,15 @@ main article section iframe {
 }
 
 #audio {
-	min-width:850px;
+	min-width:860px;
 	height:200px;
-	margin:0 auto;
+	margin: 0 auto;
 	overflow: auto;
 	margin-bottom: 100px;
 	background-color: rgba(232, 232, 232, 0.2);
+	float: left;
+	position: relative;
+	
 }
 .player  {
 	display: block;	
@@ -214,4 +217,15 @@ main section table tr td {
 
 .min_w {
 	min-width: 214px;
+}
+#plyr_rpair {
+	background-color: hsl(217, 29%, 40%);
+	width: 0;
+	height: 200px;
+	display:block;
+	float: left;
+	padding-left:18px;
+	position: absolute;
+	z-index: 10;
+	margin-left:842px;
 }
