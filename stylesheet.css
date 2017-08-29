@@ -191,7 +191,16 @@ main article section iframe {
 	display: block;
 	margin: 0 auto;
 }
-
+#mp3p {
+	width:865px;
+	height:270px;
+	display:block;
+	margin: 0 auto;
+	border: 2px #000 solid;
+	background-color: hsl(177, 29%, 40%);
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
 #audio {
 	min-width:860px;
 	height:200px;
@@ -219,7 +228,7 @@ main section table tr td {
 	min-width: 214px;
 }
 #plyr_rpair {
-	background-color: hsl(217, 29%, 40%);
+	background-color: hsl(177, 29%, 40%);
 	width: 0;
 	height: 200px;
 	display:block;
